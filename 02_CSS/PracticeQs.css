@@ -1,18 +1,16 @@
 *{
   font-family: 'Courier New';
 }
-h1{
-  color: #1b74e4;
+
+.btn{
+  background-color: aqua;
 }
-#searchbtn{
+
+#srchBtn{
   background-color: black;
   color: white;
 }
-/* .userbtn{
-  background-color: aqua;
-} */
 
-#login, #register{
-  background-color: aqua;
+h1{
+  color: #1b74e4;
 }
-

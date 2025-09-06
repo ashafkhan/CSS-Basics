@@ -6,96 +6,113 @@ h1, h3{
   color: #b92b27;
 }
 
-#login{
-  background-color: white;
-}
 #signup{
   background-color: #b92b27;
+  color: #ffffff;
+  border-radius: 3px;
+  /* border-color: none; */
+}
+
+#login{
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 3px;
+}
+
+/* Descendant selectors */
+/* h1 span{
+  color: green; (or later we will use psuedo element to make first later of quora i.e. Q to green)
+} */
+
+.post a{
+  color: purple;
+  background-color: yellow;
+}
+
+div ul li a{
+  color: hotpink;
+}
+
+.upvotebtn{
+  background-color: cornflowerblue;
   color: white;
 }
-.upvote{
-  background-color: rgb(63, 187, 222);
+
+/* .ansbtn{
+  background-color: rgba(233, 232, 226, 0.513);
+} */
+
+.upvotebtn + button{
+  background-color: blue;
   color: aliceblue;
 }
 
-/* descendant selector */
-.post a{
-  color: rgb(255, 179, 0);
-  background-color: rgb(115, 58, 168);
-}
-
-/* nav ul li a{
-  color: hotpink;
-} */
-
-nav a{
-  color: hotpink;
-}
-
-p+h3{
+p + h3{
   text-decoration: underline;
 }
 
-.upvote+button{
-  background-color: bisque;
-}
-
-div>input{
-  background-color: rgb(197, 197, 91);
+/* child selector */
+div > input{
+  background-color: rgb(172, 204, 237);
 }
 
 input[type="text"]{
   color: green;
 }
+
 input[type="password"]{
-  color: red;
+  color: grey;
 }
+
 input[type]{
   background-color: ghostwhite;
 }
 
-/* div[id="myId"]{
-  color: green;
-} */
-
-#myId{
-  color:green;
+div[id="footerDiv"] p{
+  color: grey;
 }
 
-/* psuedo class */
-button:hover{
-  background-color: red;
-  color: black;
+.upvotebtn:hover{
+  background-color: black;
+  color: white;
 }
 
-h3:hover{
-  text-decoration: none;
+.ansbtn:hover{
+  background-color: green;
+  color:black;
 }
 
-button:active{
-  background-color: hotpink;
-  color: blanchedalmond;
+.ansbtn:active{
+  background-color: black;
+  color:white;
+}
+
+.upvotebtn:active{
+  background-color: cadetblue;
 }
 
 input[type="radio"]:checked + label{
-  color:red;
+  color: red;
   font-weight: bold;
 }
 
-div:nth-of-type(2n){
-  background-color: blanchedalmond;
+.divforpost:nth-of-type(2n){
+  background-color: wheat;
 }
 
-/* psuedo-elements */
+.psuedohelper:nth-of-type(2n){
+  text-align: right;
+}
 
-h1::first-letter{
+/* psuedo element */
+#head1::first-letter{
   color: green;
 }
 
-#lastpara::first-line{
-  color: #cb008e;
+#footerDiv p::first-line{
+  color: darkviolet;
 }
 
-#lastpara::selection{
-  background-color: rgb(184, 107, 12);
+p::selection{
+  background-color: darkblue;
 }
