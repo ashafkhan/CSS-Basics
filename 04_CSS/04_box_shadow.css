@@ -1,0 +1,11 @@
+div{
+  width: 250px;
+  height: 100px;
+  background-color: cornflowerblue;
+  margin: 20px auto;
+
+  text-align: center;
+  font-size: 180%;
+  
+  box-shadow: 3px 3px 10px black;
+}
