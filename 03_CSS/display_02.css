@@ -1,19 +1,17 @@
 span{
-  /* background-color: palegoldenrod; */
+  /* background-color: pink; */
   border: 2px solid black;
-  height: 200px;
+  height: 100px;
   width: 200px;
-  margin: 20px;
   padding: 50px;
+  margin: 20px;
 }
 
-/* span vs div */
-
 div{
+  text-align: center;
   border: 2px solid black;
-  /* background-color: palegoldenrod; */
-  height: 200px;
+  height: 100px;
   width: 200px;
-  margin: 20px;
   padding: 50px;
+  margin: 20px;
 }
