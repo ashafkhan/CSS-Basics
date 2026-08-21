@@ -1,0 +1,11 @@
+#head1 {
+  text-align: center;
+  font-family: "Google Sans Flex", sans-serif;
+  font-weight: 500;
+}
+
+#para {
+  font-family: "Google Sans Flex", sans-serif;
+  white-space: pre-line;
+  text-align: center;
+}
