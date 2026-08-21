@@ -1,0 +1,44 @@
+.box{
+  height: 300px;
+  width: 500px;
+  background-color: #FFB6C1;
+  border: 2px solid black;
+  margin: 10px auto;
+  padding: 20px;
+
+  text-align: center;
+
+  animation-name: fontAnimation;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+  animation: coolBox 3s ease-in-out infinite alternate;
+}
+
+#heading{
+  text-align: center;
+}
+
+@keyframes fontAnimation{
+  from{
+    font-size: 20px
+  }
+  to{
+    font-size: 25px
+  }
+}
+
+@keyframes coolBox {
+  from {
+    transform: translateY(0) rotate(-1deg);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  to {
+    transform: translateY(-20px) rotate(1deg);
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.3);
+  }
+}

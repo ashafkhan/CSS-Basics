@@ -12,11 +12,11 @@ section{
 }
 
 div:nth-of-type(2n){
-  background-color: #f7db6a;
+  background-color: #f76a6a;
 }
 
 div:nth-of-type(3n){
-background-color: #ebb02d;
+background-color: #f3b93a;
 }
 
 /* 1. transform-rotate */
